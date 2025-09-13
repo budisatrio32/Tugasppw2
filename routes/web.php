@@ -15,8 +15,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
 
 Route::get('/choose-liga', function () {
     return view('chooseliga');  // atau view('pages.chooseliga')
-})->name('chooseliga');
+})->name('pilihliga');
+
+Route::get('/schedule', [App\Http\Controllers\CobaController::class, 'schedule'
+])->name('jadwal');

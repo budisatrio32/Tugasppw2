@@ -50,7 +50,7 @@
             <!-- Leagues Grid -->
             <div class="leagues-grid">
                 <!-- Premier League -->
-                <div class="league-card">
+                <div class="league-card" onclick="window.location.href='{{ route('jadwal') }}'" style="cursor: pointer;">
                     <div class="league-header">
                         <img src="{{ asset('assets/leagues/premier_league.png') }}" alt="Premier League" class="league-logo">
                         <h3 class="league-name">Premier League</h3>
@@ -66,13 +66,10 @@
                             <span class="stat-label">Matches</span>
                         </div>
                     </div>
-                    <div class="league-actions">
-                        <a href="#" class="btn btn-league">View Schedule</a>
-                    </div>
                 </div>
 
                 <!-- La Liga -->
-                <div class="league-card">
+                <div class="league-card" onclick="window.location.href='{{ route('jadwal') }}'" style="cursor: pointer;">
                     <div class="league-header">
                         <img src="{{ asset('assets/leagues/la_liga.png') }}" alt="La Liga" class="league-logo">
                         <h3 class="league-name">La Liga</h3>
@@ -88,13 +85,10 @@
                             <span class="stat-label">Matches</span>
                         </div>
                     </div>
-                    <div class="league-actions">
-                        <a href="#" class="btn btn-league">View Schedule</a>
-                    </div>
                 </div>
 
                 <!-- Serie A -->
-                <div class="league-card">
+                <div class="league-card" onclick="window.location.href='{{ route('jadwal') }}'" style="cursor: pointer;">
                     <div class="league-header">
                         <img src="{{ asset('assets/leagues/serie_a.png') }}" alt="Serie A" class="league-logo">
                         <h3 class="league-name">Serie A</h3>
@@ -110,13 +104,10 @@
                             <span class="stat-label">Matches</span>
                         </div>
                     </div>
-                    <div class="league-actions">
-                        <a href="#" class="btn btn-league">View Schedule</a>
-                    </div>
                 </div>
 
                 <!-- Bundesliga -->
-                <div class="league-card">
+                <div class="league-card" onclick="window.location.href='{{ route('jadwal') }}'" style="cursor: pointer;">
                     <div class="league-header">
                         <img src="{{ asset('assets/leagues/bundesliga.png') }}" alt="Bundesliga" class="league-logo">
                         <h3 class="league-name">Bundesliga</h3>
@@ -132,13 +123,10 @@
                             <span class="stat-label">Matches</span>
                         </div>
                     </div>
-                    <div class="league-actions">
-                        <a href="#" class="btn btn-league">View Schedule</a>
-                    </div>
                 </div>
 
                 <!-- Champions League -->
-                <div class="league-card">
+                <div class="league-card" onclick="window.location.href='{{ route('jadwal') }}'" style="cursor: pointer;">
                     <div class="league-header">
                         <img src="{{ asset('assets/leagues/ucl.png') }}" alt="Champions League" class="league-logo">
                         <h3 class="league-name">UEFA Champions League</h3>
@@ -154,13 +142,10 @@
                             <span class="stat-label">Matches</span>
                         </div>
                     </div>
-                    <div class="league-actions">
-                        <a href="#" class="btn btn-league">View Schedule</a>
-                    </div>
                 </div>
 
                 <!-- Ligue 1 -->
-                <div class="league-card">
+                <div class="league-card" onclick="window.location.href='{{ route('jadwal') }}'" style="cursor: pointer;">
                     <div class="league-header">
                         <img src="{{ asset('assets/leagues/ligue_1.png') }}" alt="Ligue 1" class="league-logo">
                         <h3 class="league-name">Ligue 1</h3>
@@ -176,13 +161,10 @@
                             <span class="stat-label">Matches</span>
                         </div>
                     </div>
-                    <div class="league-actions">
-                        <a href="#" class="btn btn-league">View Schedule</a>
-                    </div>
                 </div>
 
                 <!-- Eredivisie -->
-                <div class="league-card">
+                <div class="league-card" onclick="window.location.href='{{ route('jadwal') }}'" style="cursor: pointer;">
                     <div class="league-header">
                         <img src="{{ asset('assets/leagues/eredivisie.png') }}" alt="Eredivisie" class="league-logo">
                         <h3 class="league-name">Eredivisie</h3>
@@ -198,13 +180,10 @@
                             <span class="stat-label">Matches</span>
                         </div>
                     </div>
-                    <div class="league-actions">
-                        <a href="#" class="btn btn-league">View Schedule</a>
-                    </div>
                 </div>
 
                 <!-- Liga 1 Indonesia -->
-                <div class="league-card">
+                <div class="league-card" onclick="window.location.href='{{ route('jadwal') }}'" style="cursor: pointer;">
                     <div class="league-header">
                         <img src="{{ asset('assets/leagues/liga_1_indonesia.png') }}" alt="Liga 1 Indonesia" class="league-logo">
                         <h3 class="league-name">Liga 1</h3>
@@ -219,9 +198,6 @@
                             <span class="stat-number">34</span>
                             <span class="stat-label">Matches</span>
                         </div>
-                    </div>
-                    <div class="league-actions">
-                        <a href="#" class="btn btn-league">View Schedule</a>
                     </div>
                 </div>
             </div>

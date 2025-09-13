@@ -27,7 +27,7 @@
                         <a class="nav-link" href="#contact">Contact Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('chooseliga') }}">Match Schedule</a>
+                        <a class="nav-link" href="{{ route('pilihliga') }}">Match Schedule</a>
                     </li>
                 </ul>
             </div>
@@ -45,7 +45,7 @@
                     Your trusted source for precise football match schedules.
                     No distractions — just the when and where.
                 </p>
-                <a href="{{ route('chooseliga') }}" class="btn btn-primary-custom">Choose Liga</a>
+                <a href="{{ route('pilihliga') }}" class="btn btn-primary-custom">Choose Liga</a>
             </div>
         </div>
     </section>
@@ -290,8 +290,6 @@
             </div>
         </div>
     </section>
-
-    <!-- FOOTER DIHAPUS KARENA SUDAH MENGGUNAKAN TEMPLATE MASTER -->
 @endsection
 
 @section('scripts')
