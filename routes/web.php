@@ -23,6 +23,3 @@ Route::get('/choose-liga', function () {
 
 Route::get('/schedule', [App\Http\Controllers\CobaController::class, 'schedule'
 ])->name('jadwal');
-
-Route::get('/pertandingan', [App\Http\Controllers\PertandinganController::class, 'index'
-])->name('pertandingan.index');
